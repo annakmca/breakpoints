@@ -1,0 +1,46 @@
+@charset "UTF 8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+#content {
+  width: 100%;
+  max-width: 960 px;
+  margin: auto;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background: #829FD9;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background: #5C73F2; 
+}
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	header {
+    background: #027368;
+  }
+  footer {
+    background: #038C73;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+  header {
+    background: #192DA1;
+  }
+  footer {
+    background: #BFB634;
+  }
+
+}
